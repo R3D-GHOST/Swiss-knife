@@ -160,7 +160,7 @@ def phone():
     print(banner)
     call = input(">>> ")
     os.system("clear")
-    os.system("./config/phoneinfoga scan -n " +str(call))
+    os.system("./phoneinfoga scan -n " +str(call))
     
 def sms():
     os.system('clear')
